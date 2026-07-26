@@ -1,0 +1,51 @@
+/**
+ * @name deffyduck2
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+ */
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://i.pinimg.com/1200x/ec/ed/e1/ecede134bc1d8350a3ba56394566d6d8.jpg');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: url('https://i.pinimg.com/736x/9f/45/4b/9f454b571097ea5ae406ee4f8808d889.jpg');
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 243,190,214;
+  --backdrop: rgb(4,0,6,1);
+  --textshadow: rgb(0,0,0,1);
+  --transparencyalpha: 0.48;
+  --messagetransparency: 0.35;
+  --guildchanneltransparency: 0.16;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.16;
+  --font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --textbrightest: 255,255,255;
+  --textbrighter: 255,255,255;
+  --textbright: 240,240,240;
+  --textdark: 200,200,200;
+  --textdarker: 170,170,170;
+  --textdarkest: 140,140,140;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
+
+/* Mesajların okunmasını sağlayan tatlı siyah gölge */
+[class*="messageContent"] {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important;
+}
